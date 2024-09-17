@@ -80,8 +80,8 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 LOC_HIDL_VERSION := 4.0
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_kona
-TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_kona
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_stone
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_stone
 
 # Kernel
 
