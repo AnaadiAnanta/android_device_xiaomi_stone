@@ -19,11 +19,15 @@ TARGET_SUPPORTS_QUICK_TAP  := true
 TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
-PRODUCT_NAME := lineage_stone
+PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := stone
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := Xiaomi
-
-BUILD_FINGERPRINT := POCO/moonstone_p_global/moonstone:14/UKQ1.231003.002/V816.0.10.0.UMPMIXM:user/release-keys
+PRODUCT_MODEL := Redmi Note 12 5G
+PRODUCT_NAME := lineage_stone
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="sunstone_global-user 14 UKQ1.230917.001 V816.0.8.0.UMQMIXM release-keys" \
+    BuildFingerprint=Redmi/sunstone_global/sunstone:14/UKQ1.230917.001/V816.0.8.0.UMQMIXM:user/release-keys \
+    DeviceProduct=sunstone
